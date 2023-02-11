@@ -1,2 +1,8 @@
-# tabs.github.io
-这是我收藏的技术文档选项卡
+# 选项资源
+
+网页预览：mkdocs serve
+
+站点生成：mkdocs build
+
+站点部署：mkdocs gh-deploy --force
+

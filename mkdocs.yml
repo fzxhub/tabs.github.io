@@ -1,0 +1,64 @@
+#网站相关设置
+site_name: fzxhub tabs
+site_url: https://tabs.fzxhub.com/
+site_author: fzxhub
+
+#主题设置
+theme: 
+  name: material
+  language: zh
+  logo: assets/logo64x64.svg
+  favicon: assets/logo64x64.svg
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.indexes
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+    - navigation.tracking
+#主题以及主题切换按钮
+  palette:
+    - scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+#底部链接以及mkdocs版权关闭
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:fzxhub@fzxmail.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/fzxhub
+
+#版权设置
+copyright: Copyright &copy; 2019 - 2023 fzxhub <a href="https://beian.miit.gov.cn">粤ICP备20033471号</a>
+
+#插件
+plugins:
+  - search
+
+#导航栏设置
+#nav:
+#    - Home: index.md
+#    - About: 
+#      - linux: holle/?.md  
+
+#仓库设置
+#repo_url: https://github.com/fzxhub/tabs.github.io
+#repo_name: fzxhub/tabs.github.io
+
+#部署到当前仓库gh_pages分支上指令： mkdocs gh-deploy --force
+
+
+
